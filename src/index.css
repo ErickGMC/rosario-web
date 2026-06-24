@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+body {
+  /* Fondo estilo Casi Ángeles: Cielo suave y destellos dorados */
+  background-image: linear-gradient(to bottom, rgba(224, 242, 254, 0.85), rgba(254, 243, 199, 0.88)), url('./assets/background-oil.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #1e3a8a; /* Azul más profundo para texto */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animación de flotado suave para los componentes (estilo celestial) */
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+@keyframes pulse-magic {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-cozy-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-cozy-float-slow {
+  animation: float 8s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+.animate-magic {
+  animation: pulse-magic 3s ease-in-out infinite;
+}
+
+/* Bordes asimétricos tipo nube/burbuja */
+.wobbly-bubble-1 {
+  border-radius: 255px 35px 225px 35px/35px 225px 35px 255px;
+}
+
+.wobbly-bubble-2 {
+  border-radius: 40px 260px 40px 260px/260px 40px 260px 40px;
+}
+
+.wobbly-bubble-3 {
+  border-radius: 120px 25px 110px 25px/25px 110px 25px 120px;
+}
+
+/* Sombra mágica (Casi Ángeles) */
+.cozy-shadow {
+  box-shadow: 4px 6px 0px 0px rgba(30, 58, 138, 0.15);
+}
+
+.cozy-shadow-lg {
+  box-shadow: 8px 12px 0px 0px rgba(30, 58, 138, 0.1);
+}
+
+.cozy-shadow-hover:hover {
+  box-shadow: 12px 18px 0px 0px rgba(251, 191, 36, 0.3); /* Sombra dorada al hover */
+  transform: translateY(-4px) scale(1.02);
+}
