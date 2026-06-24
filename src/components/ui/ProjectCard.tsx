@@ -1,5 +1,5 @@
 import type { Project } from '../../types/portfolio';
-import { ExternalLink, BookOpen, GraduationCap, Github } from 'lucide-react';
+import { ExternalLink, BookOpen, GraduationCap, Link2 } from 'lucide-react';
 
 interface ProjectCardProps {
   project: Project;
@@ -50,7 +50,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             rel="noopener noreferrer" 
             className="flex items-center gap-1.5 text-xs font-extrabold text-blue-700 hover:text-amber-600 transition-colors border-2 border-amber-200 px-3 py-1.5 rounded-xl bg-white hover:bg-amber-50 shadow-[1px_2px_0px_0px_rgba(30,58,138,0.1)]"
           >
-            <Github size={14} />
+            <Link2 size={14} />
             <span>Recurso</span>
           </a>
         )}

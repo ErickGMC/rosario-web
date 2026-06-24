@@ -5,7 +5,7 @@ import type { Project } from '../types/portfolio';
  */
 export const filterProjectsByCategory = (
   projects: Project[],
-  category: 'all' | 'programming' | 'robotics'
+  category: 'all' | 'primaria' | 'universidad'
 ): Project[] => {
   if (category === 'all') return projects;
   return projects.filter((project) => project.category === category);

@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   description: string;
-  category: 'programming' | 'robotics';
+  category: 'primaria' | 'universidad';
   technologies: string[];
   githubUrl?: string;
   demoUrl?: string;
@@ -19,5 +19,5 @@ export interface Education {
 export interface Skill {
   name: string;
   level: number; // 0 a 100
-  category: 'software' | 'hardware' | 'tools';
+  category: 'pedagogicas' | 'herramientas';
 }
