@@ -32,7 +32,7 @@ export function Navbar({ currentPage, onPageChange }: NavbarProps) {
           className="flex items-center gap-2 cursor-pointer font-extrabold text-xl text-blue-900 hover:text-amber-500 transition-colors"
         >
           <Star className="text-amber-400 animate-magic" size={24} fill="currentColor" />
-          <span className="font-sans">Profe</span>
+          <span className="font-sans whitespace-nowrap">Miss Rosi</span>
         </div>
 
         {/* Desktop Menu */}

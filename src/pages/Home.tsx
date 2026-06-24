@@ -21,7 +21,7 @@ export default function Home({ onNavigate }: HomeProps) {
         </div>
 
         <span className="font-mono text-xs uppercase tracking-widest text-blue-800 font-bold bg-amber-100 border-2 border-amber-300 px-4 py-1.5 rounded-full shadow-[2px_2px_0px_0px_rgba(251,191,36,0.6)]">
-          ¡Che, bienvenidos a mi espacio educativo!
+          ¡Bienvenidos a mi espacio educativo!
         </span>
 
         <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-blue-900 mt-8 leading-tight">
@@ -30,7 +30,7 @@ export default function Home({ onNavigate }: HomeProps) {
 
         <div className="mt-6 space-y-4">
           <p className="text-blue-800 text-base md:text-lg leading-relaxed max-w-xl mx-auto font-medium">
-            ¡Hola! Soy profe de educación primaria y universitaria. Posta, me encanta lo que hago y creo que en cada aula <span className="font-bold text-amber-500">hay un lugar</span> para aprender cosas increíbles.
+            ¡Hola! Soy Miss Rosi, profesora de educación primaria y universitaria. Posta, me encanta lo que hago y creo que en cada aula <span className="font-bold text-amber-500">hay un lugar</span> para aprender cosas increíbles.
           </p>
           <p className="text-blue-700/90 text-sm md:text-base leading-relaxed max-w-xl mx-auto italic">
             "Resiste, que siempre hay algo nuevo por descubrir..."

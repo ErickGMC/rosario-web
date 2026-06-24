@@ -24,7 +24,7 @@ export default function ContactPage() {
         </div>
         <h1 className="text-3xl md:text-4xl font-extrabold text-blue-900 flex items-center justify-center gap-3">
           <Mail className="text-amber-500" size={32} />
-          ¿Charlamos, che?
+          ¿Charlamos?
         </h1>
         <p className="mt-3 text-blue-800 text-sm font-medium">
           ¡Escribime, no te quedes con la duda! Si querés armar algo copado juntos, mandame un mensaje.
@@ -46,8 +46,8 @@ export default function ContactPage() {
             </div>
             <div>
               <p className="text-xs text-blue-600 font-mono font-bold uppercase tracking-wider">Mi correo</p>
-              <a href="mailto:hola@profe.com" className="text-sm font-semibold hover:underline text-blue-900">
-                hola@profe.com
+              <a href="mailto:hola@missrosi.com" className="text-sm font-semibold hover:underline text-blue-900 break-all">
+                hola@missrosi.com
               </a>
             </div>
           </div>

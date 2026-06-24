@@ -9,7 +9,7 @@ export function Footer() {
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-2 font-extrabold text-blue-900">
           <Star className="text-amber-400" size={20} fill="currentColor" />
-          <span className="font-sans">Profe</span>
+          <span className="font-sans">Miss Rosi</span>
         </div>
         
         <p className="text-sm text-blue-800 text-center md:text-left font-medium">
